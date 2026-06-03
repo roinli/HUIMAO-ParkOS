@@ -1,0 +1,114 @@
+{
+	"easycom": {
+		"^(?!z-paging-refresh|z-paging-load-more)z-paging(.*)": "z-paging/components/z-paging$1/z-paging$1.vue",
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#F0F5FF"
+			}
+		},
+		{
+		
+			"path": "pages/index/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "pages/sub-packages",
+		"pages": [
+			{
+				"path": "paySuccess",
+				"style": {
+					"navigationBarTitleText": "支付结果",
+					"navigationBarBackgroundColor": "#F8F8F8"
+				}
+			},
+			{
+				"path": "pay",
+				"style": {
+					"navigationBarTitleText": "停车缴费",
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "parkingRecord",
+				"style": {
+					"navigationBarTitleText": "停车记录",
+					"navigationBarBackgroundColor": "#F8F8F8"
+				}
+			},
+			{
+				"path": "carList",
+				"style": {
+					"navigationBarTitleText": "我的车辆",
+					"navigationBarBackgroundColor": "#F8F8F8"
+				}
+			},
+			{
+				"path": "carBind",
+				"style": {
+					"navigationBarTitleText": "绑定车辆",
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "scan",
+				"style": {
+					"navigationBarTitleText": "停车缴费",
+					"navigationBarBackgroundColor": "#F8F8F8"
+				}
+			},
+			{
+				"path": "scanOrder",
+				"style": {
+					"navigationBarTitleText": "停车缴费",
+					"navigationBarBackgroundColor": "#F8F8F8"
+				}
+			}
+			
+		]
+	}],
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/index/index"
+		},  
+		{
+			"pagePath": "pages/index/user"
+		}]
+	},
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": ["pages/sub-packages"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "割胶机",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	}
+	
+
+}

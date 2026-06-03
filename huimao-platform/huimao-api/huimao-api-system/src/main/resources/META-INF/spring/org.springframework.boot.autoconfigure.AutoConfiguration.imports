@@ -1,0 +1,3 @@
+com.huimao.system.api.factory.RemoteUserFallbackFactory
+com.huimao.system.api.factory.RemoteLogFallbackFactory
+com.huimao.system.api.factory.RemoteFileFallbackFactory

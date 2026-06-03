@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.huimao</groupId>
+        <artifactId>huimao</artifactId>
+        <version>1.2.2</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>huimao-common-log</module>
+        <module>huimao-common-core</module>
+        <module>huimao-common-redis</module>
+        <module>huimao-common-seata</module>
+        <module>huimao-common-swagger</module>
+        <module>huimao-common-security</module>
+        <module>huimao-common-datascope</module>
+		<module>huimao-common-datasource</module>
+        <module>huimao-common-mybatisplus</module>
+        <module>huimao-common-message</module>
+    </modules>
+
+    <artifactId>huimao-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+	    huimao-common通用模块
+    </description>
+
+</project>

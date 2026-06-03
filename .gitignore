@@ -1,0 +1,11 @@
+.idea/
+**/.idea/
+**/node_modules/
+**/dist/
+**/target/
+**/logs/
+**/.env.local
+**/.env.*.local
+.DS_Store
+Thumbs.db
+*.log
