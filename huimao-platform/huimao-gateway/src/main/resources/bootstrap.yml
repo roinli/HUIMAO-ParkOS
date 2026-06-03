@@ -1,6 +1,6 @@
 # Tomcat
 server:
-  port: 48081
+  port: 39202
 
 # Spring
 spring:
@@ -10,43 +10,19 @@ spring:
   profiles:
     # 环境配置
     active: @profiles.active@
-  main:
-    allow-circular-references: true
-    allow-bean-definition-overriding: true
   cloud:
     nacos:
       discovery:
-        username: nacos
-        password: huizhi
         # 服务注册地址
-        server-addr: ${NACOS_HOST:171.111.217.227}:${NACOS_PORT:8848}
+        server-addr: ${NACOS_HOST:127.0.0.1}:${NACOS_PORT:8848}
         #服务注册ip和端口
-        ip: ${NETWORK_IP:182.40.195.136}
+        ip: ${NETWORK_IP:127.0.0.1}
         port: ${server.port}
-        namespace: 1879357a-37f7-4b6e-95a2-0267f3e5ee24
       config:
         # 配置中心地址
         server-addr: ${spring.cloud.nacos.discovery.server-addr}
         # 配置文件格式
         file-extension: yml
-        username: nacos
-        password: huizhi
-        namespace: 1879357a-37f7-4b6e-95a2-0267f3e5ee24
         # 共享配置
         shared-configs:
           - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
-    sentinel:
-      # 取消控制台懒加载
-      eager: true
-      transport:
-        # 控制台地址
-        dashboard: ${SENTINEL_HOST:171.111.217.227}:${SENTINEL_PORT:8718}
-      # nacos配置持久化
-      datasource:
-        ds1:
-          nacos:
-            server-addr: ${NACOS_HOST:171.111.217.227}:${NACOS_PORT:8848}
-            dataId: sentinel-huimao-gateway
-            groupId: DEFAULT_GROUP
-            data-type: json
-            rule-type: gw-flow
