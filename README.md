@@ -114,6 +114,9 @@ HUIMAO Parking 是一款基于 Apache-2.0 协议发布的开源停车场数字�
 密码：admin123456
 
 车主端小程序：扫码体验  
+
+![img_1.png](doc/images/img_1.png)
+
 H5：http://huimao-h5.huizhidata.com/
 
 ---
