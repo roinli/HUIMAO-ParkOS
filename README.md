@@ -115,8 +115,7 @@ HUIMAO Parking 是一款基于 Apache-2.0 协议发布的开源停车场数字�
 
 车主端小程序：扫码体验  
 
-![img_1.png](doc/images/img_1.png)
-
+![4a8b298360d4a10cc4727b8e7aeda988.png](doc/images/4a8b298360d4a10cc4727b8e7aeda988.png)
 H5：http://huimao-h5.huizhidata.com/
 
 ---
@@ -138,7 +137,7 @@ H5：http://huimao-h5.huizhidata.com/
 
 <div align="center">
 
-![img.png](img.png)
+![4a8b298360d4a10cc4727b8e7aeda988.png](doc/images/4a8b298360d4a10cc4727b8e7aeda988.png)
 
   <br>
   接口文档 | 产品功能清单 | 思维导图 | 安装教程
@@ -147,8 +146,8 @@ H5：http://huimao-h5.huizhidata.com/
 您还可以在 HUIMAO Parking 技术社区 中提交 Bug、交流解决方案、获取官方更新动态，HUIMAO Parking 技术社区伴您一路前行。
 
 ---
+![img_1.png](img_1.png)
 
-## 🎨 核心功能全景图
 
 | 🔴 多端应用 | 🟠 运营管理 | 🟡 停车业务 | 🟢 支付结算 |
 |------------|------------|------------|------------|
