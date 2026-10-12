@@ -120,6 +120,11 @@ H5：http://huimao-h5.huizhidata.com/
 
 ---
 
+### 🖥 +v:18601938676 如果您也对开源感兴趣，欢迎加入群 ,加群请注明原因，开源、共享、共赢永远是主旋律。
+
+
+![输入图片说明](doc/huizhi/images/我的.png)
+
 ## 📚 项目资料
 ### 资料支持
 使用文档：http://huimao.doc.huizhidata.com/
